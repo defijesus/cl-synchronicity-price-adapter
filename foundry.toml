@@ -2,6 +2,7 @@
 src = 'src'
 test = 'tests'
 script = 'scripts'
+solc = '0.8.19'
 out = 'out'
 libs = ['lib']
 remappings = []
@@ -14,6 +15,7 @@ polygon = "${RPC_POLYGON}"
 arbitrum = "${RPC_ARBITRUM}"
 base = "${RPC_BASE}"
 gnosis = "${RPC_GNOSIS}"
+scroll = "${RPC_SCROLL}"
 
 [etherscan]
 mainnet={key="${ETHERSCAN_API_KEY_MAINNET}",chainId=1}
@@ -24,5 +26,6 @@ arbitrum={key="${ETHERSCAN_API_KEY_ARBITRUM}",chainId=42161}
 fantom={key="${ETHERSCAN_API_KEY_FANTOM}",chainId=250}
 base={key="${ETHERSCAN_API_KEY_BASE}",chainId=8453}
 gnosis={key="${ETHERSCAN_API_KEY_GNOSIS}",chainId=100}
+scroll={key="${ETHERSCAN_API_KEY_SCROLL}",chainId=534352}
 
 # See more config options https://github.com/gakonst/foundry/tree/master/config
