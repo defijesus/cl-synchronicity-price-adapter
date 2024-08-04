@@ -44,7 +44,7 @@ A special price adapter for `wstETH / USD` is added, as additionally to using th
 
 Price adapter for `rETH / USD` uses `ETH / USD` price feed along with the `getExchangeRate()` method, which returns `rETH / ETH` ratio, of the [rETH](https://etherscan.io/token/0xae78736cd615f374d3085123a210448e74fc6393) contract itself.
 
-Mainnet Price adapter for rETH is deployed on the address [0x05225Cd708bCa9253789C1374e4337a019e99D56](https://etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56).
+Mainnet Price adapter for rETH is deployed on the address [0xb031a238940e8051852b156f3efDc462fc34f37B](https://etherscan.io/address/0xb031a238940e8051852b156f3efDc462fc34f37B).
 
 Arbitrum Price adapter for rETH is deployed on the address [0x04c28d6fe897859153ea753f986cc249bf064f71](https://arbiscan.io/address/0x04c28d6fe897859153ea753f986cc249bf064f71).
 
